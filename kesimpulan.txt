@@ -1,0 +1,12 @@
+(kesimpulan antara 4 filter yang paling bagus untuk gambar)
+ 
+Dari empat jenis filter morfologi yang telah dicoba — dilasi, erosi, opening, dan closing — filter yang paling bagus dan efektif untuk menghilangkan noise kecil 
+pada gambar adalah filter opening.
+Filter opening bekerja dengan cara menghapus bintik-bintik kecil atau noise terang yang tidak penting, tetapi tetap menjaga bentuk objek utama agar tidak rusak. 
+Ini membuat gambar jadi lebih bersih tanpa kehilangan informasi penting.
+Sebaliknya:
+-Dilasi malah bisa memperbesar noise kecil, jadi kurang cocok.
+-Erosi bisa menghilangkan noise, tapi juga bisa membuat objek utama jadi hilang sebagian.
+-Closing lebih cocok untuk menutup lubang kecil di dalam objek, bukan untuk membersihkan noise.
+
+"Jika tujuanmu adalah menghilangkan noise kecil di gambar tanpa merusak objek penting, maka filter opening adalah pilihan terbaik."
